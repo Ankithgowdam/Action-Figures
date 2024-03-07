@@ -1,0 +1,44 @@
+:root {
+ --mainBlue:#b15454;
+ --lightBlue:#ffee00;
+ --mainWhite:#ffffff;
+ --mainDark:#8c00ab;
+ --mainYellow:#4ea200;
+}
+body{
+  background-image: url("https://image.slidesdocs.com/responsive-images/background/creative-business-line-clean-yellow-simple-powerpoint-background_f1fc37da6d__960_540.jpg");
+  background-repeat: repeat-y;
+  /* background-size: 100%; */
+  background-size: 100%;
+  font-family:"Anton", sans-serif !important;
+  /* background:var(--mainWhite) !important; */
+  color:var(--mainDark) !important;
+}
+.text-title{
+  font-family: sans-serif, cursive;
+  letter-spacing:0.5rem;
+
+}
+.text-blue{
+  color:var(--mainBlue);
+}
+.text-bright{
+  color:var(--lightBlue);
+}
+.btn-black{
+  background:transparent;
+  text-transform:capitalize;
+  font-size:0.8rem !important;
+  color:var(--mainDark);
+  border-radius: 0 !important;
+  border:0.1rem solid var(--mainDark) !important;
+}
+.btn-black:hover{
+  background:var(--mainDark) !important;
+  color:var(--mainWhite) !important;
+}
+.cart-icon{
+  cursor:pointer;
+  font-size:1.2rem;
+  color:var(--mainYellow);
+}
